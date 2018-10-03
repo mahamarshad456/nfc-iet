@@ -1,0 +1,228 @@
+.header
+{
+	background-color: #0c426f;
+	height: 180px;
+}
+.header h1
+{
+	float: left;
+	font-size: 30px;
+	color: white;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-shadow: 0px 2px 0px black; 
+
+}	
+.header img
+{
+	float: left;
+	margin-left: 50px;
+}
+
+.header .btn
+{
+	margin-right: 15px;
+	background-color: #154c7a;;
+	width: 60px;
+	height: 20px;
+	color: white;
+	float: right;
+}
+.header .ip
+{
+	
+	margin-left:800px;
+	width: 300px;
+	height: 20px;
+	background-color:#154c7a;
+	border: none;
+}
+
+.header ul li
+{
+	display: inline;
+	list-style: none;
+	margin: 0px auto;
+	padding: 20px;
+}
+.header ul li a 
+{
+	color: lightsteelblue;
+	border-right: 1px solid #1b5280;
+	padding: 10px;
+	text-decoration: none;
+}
+.hero
+{
+	background-image: url('hero.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	/*width: 100%;
+	height: 500px;*/
+}
+.menu 
+{
+	/*margin-top: 450px;*/
+	padding: 20px;
+}
+.menu ul li
+{
+	width: 100%;
+	display: inline;
+	margin: 0px auto;
+}
+.menu ul li a
+{
+	width: 10%;
+	padding: 10px;
+	text-decoration: none;
+	float: left;
+}
+.info
+{
+	width: 100%
+}
+.info .chr
+{
+	width: 50%;
+	float: left;
+}
+.info .vic
+{
+	width: 50%;
+	float:right;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    color:#1b5280;
+   min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /*padding: 20px 20px;*/
+    z-index: 1;
+    font-size: 10px;
+   float: left;
+    border: solid;
+}
+.dropdown-content .bt
+{
+	border: solid;
+	color:#1b5280;
+	width: 100%;
+	padding: 5px;
+	margin-right:0px;
+	margin: 0px;
+	margin-left: 0px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: inline-block;
+    background-color: #1b5280;
+}
+.vc
+{
+	float:left;
+	padding-left: 20px;
+}
+.main
+{
+	width: 100%
+}
+.main .left
+{
+	width: 50%;
+	float:left;
+}
+.main .left a
+{
+	padding: 12px;
+	width: 100%;
+	margin: 20px;
+}
+.main .left p
+{
+	text-align: justify;
+	padding: 20px;
+}
+.main .right
+{
+	width: 50%;
+	float: left;
+}
+.feedbk
+{
+	background-color:#113e6b;;
+	height: 250px; 
+	width: 250px;
+	float: left;
+}
+.contact
+{
+
+
+	background-color: #113e6b;;
+	height: 250px; 
+	width: 270px;
+	float: left;
+	margin-left: 0px;
+	
+
+}
+.connect
+{
+
+	background-color: #113e6b;;
+	height: 250px; 
+	width: 270px;
+	float: left;
+	margin-left: 0px;
+	
+}
+.division
+{
+	height: 250px;
+	width: 1060px;
+}
+.os
+{
+	background-color:#113e6b;;
+	height: 250px; 
+	width: 270px;
+	float: left;
+	margin-left: 0px;
+}
+.fb
+{
+	color: white;
+	margin-left: 15px;
+}
+.ct
+{
+	width: 80px;
+	margin-top: 10px;
+
+}
+.second-last
+{
+	
+	background-color:#113e7b;
+	height: 30px;
+	border: currentColor;
+}
+.last
+{
+
+	height: 70px;
+	background-color: #113e5b;
+	color: lightblue;
+
+}
+.container
+{
+	background-color:#113e6b; 
+}
